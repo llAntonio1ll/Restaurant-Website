@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
+	<link rel="stylesheet" href="unslider-master/dist/css/unslider-dots.css">
+</head>
+<body class="home">
+	<div class="navbar-background">
+		<div class="nav-bar">
+			<a class="button" href="index.html">Home</a>
+			<a class="button" href="menu.html">Menu</a>
+			<a class="button" href="about.html">About Us</a>
+			<a class="button" href="contact.html">Contact</a>
+		</div>
+	</div>
+	<!-- <nav class="topbar">
+		<ul class="main-nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav> -->
+	<!-- Make a image slider here -->
+	<div class="my-slider">
+	<ul class="test">
+		<li><img src="img/restaurant.png"/></li>
+		<li><img src="img/outside.jpg"/></li>
+		<li><img src="img/room.jpg"/></li>
+		<li><img src="img/seat.jpg"/></li>
+		<li><img src="img/tables.jpg"/></li>
+	</ul>
+</div>
+	<!-- <img src="img/restaurant.png"/> -->
+	<!-- <h1>Hi</h1> -->
+	<img class="centerimage" src="img/logo2.png">
+	<!-- Put the logo and about us underneath the image slider and lines -->
+	<!-- <footer> -->
+		<!-- <p>1890 North Germantown Pky. Ste. 99 Cordova, TN 38016</p> -->
+	<!-- </footer> -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="unslider-master/src/js/unslider.js"></script>
+	<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider();
+		});
+	</script>
+	<footer class="normal">
+		<p>1890 North Germantown Pky. Ste. 99 Cordova, TN 38016</p>
+	</footer>
+</body>
+</html>
