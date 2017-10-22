@@ -13,6 +13,7 @@
 	}
 	body.about {
 		background-color: #ff5400;
+		text-align: center;
 	}
 	body.contact {
 		color: white;
@@ -41,14 +42,6 @@ div.nav-bar{
 	padding: 2px 0;
 	text-align: center;
 
-}
-div.information {
-	border: 5px solid #d7263d;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-right: 700px;
-	margin-left: 600px;
-	margin-top: 100px;
 }
 .nav-bar .button {
 	margin: 0 15px;
